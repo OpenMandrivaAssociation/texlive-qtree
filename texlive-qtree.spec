@@ -52,6 +52,7 @@ front end.
 %doc %{_texmfdistdir}/doc/latex/qtree/qarrows.tex
 %doc %{_texmfdistdir}/doc/latex/qtree/qtreenotes.pdf
 %doc %{_texmfdistdir}/doc/latex/qtree/qtreenotes.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -62,3 +63,5 @@ front end.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

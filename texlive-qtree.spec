@@ -6,7 +6,7 @@
 # catalog-version 3.1b
 Name:		texlive-qtree
 Version:	3.1b
-Release:	4
+Release:	5
 Summary:	Draw tree structures
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/qtree
